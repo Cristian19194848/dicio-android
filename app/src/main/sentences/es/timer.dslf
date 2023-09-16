@@ -1,6 +1,7 @@
 timer: high
-[set] notifica<r?>me|alerta<r?>me en .duration.;
-[set] configura<r?>|inicia<r?>|crea<r?> un? temporizador|cronometro|contador (con duracion)? de .duration. ((llamado|(con el nombre de?)) .name.)?;
-[cancel] cancela<r?>|deten<er?> ((el? temporizador|cronometro|contador llamado|(con el nombre de?))|(los? temporizadores|cronometros|contadores (llamados|(con el nombre de?))))? .name.;
-[query] cuanto tiempo? le? queda|resta|falta|sobra al|(en el) temporizador|cronometro|contador (llamado|(con el nombre de?) .name.)?;
-[query] cuando terminara|finalizara|(se detendra) el temporizador|cronometro|contador (llamado|(con el nombre de?) .name.)?;
+[set] temporizador| cronometro| .duration.;
+[set] (configura?)|crea una|pon un |inicia|crea un? (.duration.? timer)|(timer for|of .duration. (llamado|nombrado|(con el nombre) .name.)?);
+[cancel] cancelar|para|desactiva|finaliza|termina el ? (.name.? time<r|rs?>)|(time<r|rs?> called|named|(with the name) .name.);
+[cancel] silencia|(apaga|desactiva)|parar|finaliza el ? (.name.? time<r|rs?>|campana|alerta|sonido|rington)|(time<r|rs?>|campana|alerta|sonido|rington llamado|nombrado|nombrada|(con el nombre) .name.);
+[query] cuanto|(tiempo) queda? en ? (.name.? time<r|rs?>)|(tiempo<r|rs?> llamada|llamado|nombrado|(con el nombre) .name.);
+[query] cuando terminara |la ? (.name.? tiempo<r|rs?>)|(time<r|rs?> llamado|nombrado|llamada|nombrada|(con el nombre) .name.) ? expira;
